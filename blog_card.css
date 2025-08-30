@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;font-family: "Figtree", sans-serif;
+}
+body{
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    min-height: 100vh;
+}
+.container{
+    width: 384px;
+    height: 522px;
+    margin: auto;
+    background-color: #FFF;
+    border: 2px solid gray;
+    border-radius: 15px;
+    flex-direction: column;
+    box-shadow: 8px 8px 1px black;
+}
+.author{
+    margin-left: 24px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.author img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+div .authorname{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.blog-image{
+    width: 336px;
+    height: 200px;
+    margin: 24px;
+    border-radius: 12px;
+}
+.content{
+    margin: 0 24px 24px 24px;
+}
+button{
+    background-color: #f4d04e;
+    padding: 4px 12px;
+    border: none;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #111;
+}
+.publish-date{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3e3e3e;
+}
+.title{
+    font-size: 25px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #111;
+    margin-bottom: 12px;
+}
+.content p{
+    color: #6b6b6b;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
+
+@media (min-width: 900px){
+    .container{
+        flex-direction: row;
+    }
+}
