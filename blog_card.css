@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Text:wght@200..700&family=Nata+Sans:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 html{
-    box-sizing: border-box;font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
 }
+
+
 body{
     background-color: #f4d04e;
     display: flex;
@@ -16,7 +19,7 @@ body{
     height: 522px;
     margin: auto;
     background-color: #FFF;
-    border: 2px solid gray;
+    border: 1.5px solid #2c2c2c;
     border-radius: 15px;
     flex-direction: column;
     box-shadow: 8px 8px 1px black;
@@ -35,7 +38,8 @@ body{
 div .authorname{
     margin-left: 10px;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 15px;
+    color: #111;
 }
 .blog-image{
     width: 336px;
@@ -59,13 +63,13 @@ button{
     display: block;
     margin-top: 15px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     color: #3e3e3e;
 }
 .title{
     font-size: 25px;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 24px;
     color: #111;
     margin-bottom: 12px;
 }
@@ -74,7 +78,7 @@ button{
     font-weight: normal;
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
 }
 
 @media (min-width: 900px){
